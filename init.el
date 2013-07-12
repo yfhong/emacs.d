@@ -20,6 +20,13 @@
 
 (defconst *spell-check-support-enabled* nil) ;; Enable with t if you prefer
 (defconst *is-a-mac* (eq system-type 'darwin))
+(defconst *is-carbon-emacs* (eq window-system 'mac))
+(defconst *is-cocoa-emacs* (and *is-a-mac* (eq window-system 'ns)))
+(defconst *linux* (or (eq system-type 'gnu/linux) (eq system-type 'linux)))
+(defconst *unix* (or *linux*
+                     (eq system-type 'usg-unix-v)
+                     (eq system-type 'berkeley-unix)))
+(defconst *linux-x* (and window-system *linux*))
 
 
 ;; Adjust garbage collection thresholds during startup, and thereafter
