@@ -126,6 +126,7 @@
 (require 'init-clojure)
 (require 'init-clojure-cider)
 (require 'init-common-lisp)
+(require 'init-scad)
 
 (when *spell-check-support-enabled*
   (require 'init-spelling))
