@@ -135,6 +135,7 @@
 
 (require 'init-folding)
 (require 'init-yasnippet)
+(require 'init-auto-insert)
 
 (require 'init-dash)
 
