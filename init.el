@@ -122,6 +122,7 @@
 (require 'init-misc)
 
 (require 'init-yasnippet)
+(require 'init-auto-insert)
 
 (require 'init-dash)
 (require 'init-ledger)
