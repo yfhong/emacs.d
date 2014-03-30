@@ -134,6 +134,8 @@
 (require 'init-misc)
 
 (require 'init-folding)
+(require 'init-yasnippet)
+
 (require 'init-dash)
 
 ;;(require 'init-twitter)
