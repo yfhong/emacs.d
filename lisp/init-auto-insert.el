@@ -12,6 +12,7 @@
  '(auto-insert-directory "~/.emacs.d/auto-insert/")
  '(auto-insert-alist
    '(
+     (("\\.py\\'" . "Python script") . ["python-header" my/autoinsert-yas-expand])
      )
    ))
 
