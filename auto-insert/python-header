@@ -1,0 +1,12 @@
+# -*- coding: utf-8 -*-
+# Last modified: <>
+"""
+    ${1:MODULE.NAME}
+    ~~~~~~~~~~~~~~~~~
+
+    ${2:description of the module}
+"""
+
+from __future__ import print_function, unicode_literals, division
+
+$0
