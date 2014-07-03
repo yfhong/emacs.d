@@ -117,6 +117,7 @@
   (require 'init-clojure-cider))
 (require 'init-common-lisp)
 (require 'init-scad)
+(require 'init-puppet)
 
 (when *spell-check-support-enabled*
   (require 'init-spelling))
