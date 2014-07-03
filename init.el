@@ -106,6 +106,7 @@
 (require 'init-rails)
 (require 'init-sql)
 (require 'init-perl)
+(require 'init-tex)
 
 (require 'init-paredit)
 (require 'init-lisp)
