@@ -1,0 +1,11 @@
+% -*- coding: utf-8 -*-
+\documentclass[UTF8,nofonts]{ctexart}
+\setCJKmainfont[ItalicFont={AR PL KaitiM GB}]{AR PL SungtiL GB}% 文鼎宋体和楷书
+\setCJKsansfont{WenQuanYi Zen Hei}% 文泉驿的黑体
+\setCJKmonofont{AR PL UMing CN}% 文鼎
+
+\begin{document}
+
+$0
+
+\end{document}
