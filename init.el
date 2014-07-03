@@ -133,6 +133,7 @@
 (maybe-require-package 'just-mode)
 (maybe-require-package 'justl)
 (require 'init-perl)
+(require 'init-tex)
 
 (require 'init-paredit)
 (require 'init-lisp)
