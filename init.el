@@ -90,6 +90,7 @@
 (require 'init-crontab)
 (require 'init-textile)
 (require 'init-markdown)
+(require 'init-asciidoc)
 (require 'init-csv)
 (require 'init-erlang)
 (require 'init-javascript)
