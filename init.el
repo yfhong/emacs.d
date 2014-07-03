@@ -119,6 +119,7 @@
 (require 'init-nix)
 (maybe-require-package 'nginx-mode)
 (require 'init-perl)
+(require 'init-tex)
 
 (require 'init-paredit)
 (require 'init-lisp)
