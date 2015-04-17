@@ -1,6 +1,6 @@
-(require-package 'pde)
+(require-package 'perl-completion)
 
-(load "pde-load")
+;; (load "pde-load")
 
 (setq auto-mode-alist
       (append '(("psgi\\'" . perl-mode)
