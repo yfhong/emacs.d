@@ -125,8 +125,10 @@
 (require 'init-paredit)
 (require 'init-lisp)
 (require 'init-slime)
-(require 'init-clojure)
-(require 'init-clojure-cider)
+(unless (version<= emacs-version "24.2")
+  (require 'init-clojure)
+  (require 'init-clojure-cider))
+
 (require 'init-common-lisp)
 (require 'init-scad)
 (require 'init-puppet)
