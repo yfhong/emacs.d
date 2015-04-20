@@ -2,6 +2,9 @@
 (setq user-full-name "Hong Yifan (homer)")
 (setq user-mail-address "hyfing@gmail.com")
 
+;; default directory
+(setq default-directory "C:/Users/homer/Documents")
+
 ;; enable time stamp
 (setq time-stamp-pattern nil)
 (setq time-stamp-active t)
