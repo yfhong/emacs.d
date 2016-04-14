@@ -3,7 +3,7 @@
 (setq user-mail-address "hyfing@gmail.com")
 
 ;; default directory
-(setq default-directory "C:/Users/homer/Documents")
+;; (setq default-directory "C:/Users/homer/Documents")
 
 ;; enable time stamp
 (setq time-stamp-pattern nil)
