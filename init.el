@@ -23,9 +23,6 @@
 
 
 
-(when *mswin*
-  (require 'init-mswin))
-
 ;; Adjust garbage collection threshold for early startup (see use of gcmh below)
 (setq gc-cons-threshold (* 128 1024 1024))
 
@@ -152,7 +149,6 @@
 (require 'init-lua)
 (require 'init-uiua)
 (require 'init-zig)
-(require 'init-terminals)
 
 ;; Extra packages which don't require any configuration
 
